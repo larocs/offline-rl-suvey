@@ -1,4 +1,5 @@
 # Offline RL Survey: Supplementary Material
+This is the supplementary material to accompany the article titled "A Survey on Offline Reinforcement Learning: Taxonomy, Review, and Open Problems" available in [arXiv](https://arxiv.org/abs/2203.01387).
 
 ## Method Performance
 In the table below, we present the normalized scores for various methods on the D4RL benhcmark.
