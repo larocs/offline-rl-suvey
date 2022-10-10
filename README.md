@@ -1,6 +1,30 @@
 # Offline RL Survey: Supplementary Material
 This is the supplementary material to accompany the article titled "A Survey on Offline Reinforcement Learning: Taxonomy, Review, and Open Problems" available in [arXiv](https://arxiv.org/abs/2203.01387).
 
+## Setup
+To run the scripts that generate the artifacts in this repo, make sure to install the required packages:
+```sh
+pip install -r requirements.txt
+```
+We used `python3.8` in our setup, so we advise anyone trying to run the scripts to use a version `>=3.8`.
+
+## Popularity of the Field
+To gauge the popularity of offline RL, we measured the number of published articles in offline RL and RL over the past decade (from 2011-2021) according to Google Scholar.
+For the offline RL articles, we included those that have either the offline RL or batch RL keywords.
+We found the following results.
+
+![Number of publications in offline RL and RL](assets/pubs.svg)
+
+Notice how both offline RL and RL have increased in popularity over the past years.
+However, offline RL has consistently shown exponential growth over the past five years, while RL has decreased in popularity in 2021.
+The figure above is generated from the CSV output from the following command:
+
+```sh
+python crawl_pubs.py
+```
+
+The artifact output from the script is also available in the repo under the `assets` folder as [`pubs.csv`](assets/pubs.csv).
+
 ## Method Performance
 In the table below, we present the normalized scores for various methods on the D4RL benhcmark.
 The normalized score is computed to facilitate comparison across tasks.
