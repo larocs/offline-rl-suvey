@@ -13,7 +13,7 @@ To gauge the popularity of offline RL, we measured the number of published artic
 For the offline RL articles, we included those that have either the offline RL or batch RL keywords.
 We found the following results.
 
-![Number of publications in offline RL and RL](assets/pubs.svg)
+![Number of publications in offline RL and RL](assets/pubs-with-bkg.png)
 
 Notice how both offline RL and RL have increased in popularity over the past years.
 However, offline RL has consistently shown exponential growth over the past five years, while RL has decreased in popularity in 2021.
@@ -84,7 +84,7 @@ This table was used to compute the relative scores we used in the performance he
 The heatmap aggregates the per-dataset scores into average relative scores for each dataset property.
 This allows us to make high-level decisions more easily and answer questions like "What is the best algorithm for a dataset with properties X and Y?"
 
-![Relative scores of methods and classes on each dataset property](assets/perf-heatmap.svg)
+![Relative scores of methods and classes on each dataset property](assets/perf-heatmap-with-bkg.png)
 
  To generate the CSV artifacts used to create the heatmap and compute its colors, one can run the following command from the root of the repository (after installing the necessary requirements):
  ```sh
